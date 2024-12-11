@@ -1,0 +1,57 @@
+:root {
+  --blue: #37517e;
+}
+
+.front {
+  background-color: var(--blue);
+}
+.front a {
+  color: white !important;
+}
+
+.dropdown-menu a {
+  color: black !important;
+}
+
+.anime-img {
+  animation: up-down 3s linear infinite alternate;
+}
+
+@keyframes up-down {
+  from {
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(-30px);
+  }
+}
+
+.img-r li {
+  padding: 10px;
+}
+
+.max-content {
+  width: max-content;
+  margin: auto;
+}
+
+.gray {
+  background: lightgray;
+  width: 100%;
+  height: 2px;
+  margin: auto;
+  border-radius: 40px;
+  position: relative;
+}
+
+.blue {
+  background: var(--bs-info);
+  width: 40%;
+  height: 4px;
+  margin: auto;
+  border-radius: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
