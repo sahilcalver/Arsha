@@ -35,9 +35,14 @@
   margin: auto;
 }
 
+.bg-blue{
+background: var(--blue);
+
+}
+
 .gray {
   background: lightgray;
-  width: 100%;
+  width: 100%
   height: 2px;
   margin: auto;
   border-radius: 40px;
