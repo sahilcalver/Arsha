@@ -42,7 +42,7 @@
 
 .gray {
   background: lightgray;
-  width: 100%;
+  width: 70%;
   height: 2px;
   margin: auto;
   border-radius: 40px;
@@ -99,6 +99,13 @@
   background-color: rgba(189, 188, 187, 0.7);
 }
 
+.card-two {
+  border-top: 5px solid var(--bs-info) !important;
+}
+
+.clip-circle {
+  clip-path: circle() !important;
+}
 @media (max-width: 767px) {
   .team-img {
     width: 40% !important;
